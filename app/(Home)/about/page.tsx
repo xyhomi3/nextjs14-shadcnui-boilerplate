@@ -1,9 +1,12 @@
+import { Button } from '@/components/ui/button'
 import React from 'react'
 
 function page() {
   return (
     <div className="flex items-center justify-center h-screen">
-      Abouts
+      <Button variant={'outline'}>
+        <a href="https://xyhomi3.github.io" target='_blank'>Abouts me</a>
+      </Button>
     </div>
   )
 }
