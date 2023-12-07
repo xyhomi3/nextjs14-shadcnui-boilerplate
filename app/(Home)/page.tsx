@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { ThemeToogle } from "@/src/theme/ThemeToogle";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-5">
@@ -23,9 +21,9 @@ export default function Home() {
         Shadcn/ui
       </h1>
       <code className="absolute bottom-5 mt-4 text-gray-900 text-center p-5 dark:text-gray-100">
-        <a href="https://nextjs.org/blog/next-14" target="_blank">Next.js 14</a> Boilerplate with Shadcn/ui, Next Themes, TypeScript, ESLint .by <a href="https://xyhomi3.github.io">@xyhomi3</a>
+        <a href="https://nextjs.org/blog/next-14" target="_blank">Next.js 14</a> with Shadcn/ui, Next Themes, TypeScript, ESLint.<a href="https://xyhomi3.github.io">@xyhomi3</a>
       </code>
-      <ThemeToogle />
+
     </main>
   );
 }
